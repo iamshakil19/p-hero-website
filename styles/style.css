@@ -11,6 +11,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 .gem-button{
     background-color: white;
@@ -19,4 +20,25 @@ body{
 }
 .slider{
     background-color: #622BEE;
+    height: 80%;
+    padding-bottom: 100px;
+}
+.continue-button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 5px 15px 40px;
+    background-image: linear-gradient(#ff136f, #ff589b);
+    border-radius: 25px;
+}
+.continue-button:hover{
+    background-image: linear-gradient(#ff589b,#ff136f);
+    color: white;
+}
+.arrow{
+    color: #ff589b;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 18px;
 }
