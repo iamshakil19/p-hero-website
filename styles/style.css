@@ -43,7 +43,7 @@ body{
     font-size: 18px;
 }
 .next-batch{
-    box-shadow: 0px 0px 2px;
+    box-shadow: 0px 0px 5px rgb(128 128 128 / 39%);
     position: absolute;
     left: 20%;
     top: 632px;
@@ -89,4 +89,38 @@ body{
 }
 .fa-tv{
     background-color: #FF2A85;
+}
+.course-detail{
+    margin-top: 350px;
+    
+}
+.batch5-video{
+    box-shadow: 0px 0px 5px rgb(128 128 128 / 39%);
+    padding: 25px;
+    border-radius: 10px;
+    height: 500px;
+}
+.batch5-video img{
+    border-radius: 10px;
+    width: 100%;
+}
+.enrollment-button{
+    background-image: linear-gradient(#684efb .01%, #5a00dd 100.01%);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.fa-check{
+    background-color: #FF6347;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+.check-mark-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-gap: 25px;
+    align-content: center;
 }
